@@ -1,13 +1,15 @@
-function ParImp(numero) {
-    return numero;
+function ParImp(numero: number)
+{
+    if (numero % 2 == 0)
+    {
+        let numero: boolean = true
+        console.log(numero)  
+    }
+    else
+    {
+        let numero: boolean = false
+        console.log(numero) 
+    }
 }
-var numero = 11;
-if (numero % 2 == 0) {
-    console.log("O número é PAR");
-}
-else if (numero % 2 == 1) {
-    console.log("O número é IMPAR");
-}
-else {
-    console.log("O número é NULO");
-}
+
+ParImp(10)
