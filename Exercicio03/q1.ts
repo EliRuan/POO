@@ -12,4 +12,4 @@ function ParImp(numero: number)
     }
 }
 
-ParImp(10)
+ParImp(10) // true
