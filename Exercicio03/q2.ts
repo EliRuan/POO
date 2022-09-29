@@ -20,3 +20,4 @@ function Primo(numero: number)
 }
 
 Primo(29) // 29 é primo
+Primo(30) // 30 não é primo
