@@ -13,3 +13,4 @@ function ParImp(numero: number)
 }
 
 ParImp(10) // true
+ParImp(1) // false
