@@ -1,5 +1,5 @@
 class Banco {
-    constructor(private contas: Conta[] = [];) {}
+    constructor(private contas: Conta[] = []) {}
     
     inserir(c : Conta): void {}
     alterar(c : Conta): void {}
