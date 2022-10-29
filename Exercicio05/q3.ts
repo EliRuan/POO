@@ -1,6 +1,6 @@
 class Conta {
-    private numero: string;
-    private saldo: number;
+    numero: string;
+    saldo: number;
     //...
     sacar(valor: number): void {
     if (this.saldo >= valor) {
